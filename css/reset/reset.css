@@ -1,0 +1,14 @@
+  :root{
+    --bg:#0b0d10; --card:#16191d;
+    --accent:#e10600; --text:#e8ecef; --muted:#9aa7b0;
+  }
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:'Roboto', sans-serif;
+  }
+  h1,h2,h3,.navbar-brand{ font-family:'Orbitron', sans-serif; }
+ 
+  .navbar-inner{
+    display:flex; justify-content:space-between; align-items:center;
+    flex-wrap:wrap; gap:10px;
+  }

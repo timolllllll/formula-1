@@ -1,0 +1,13 @@
+  .features{
+    display:flex; flex-wrap:wrap; gap:16px; justify-content:center;
+    padding:0 20px;
+  }
+  .features .card{
+    flex:1 1 220px; max-width:260px;
+    background:var(--card); border:none; border-top:3px solid var(--accent);
+    color:var(--text); transition:transform .25s ease, box-shadow .25s ease;
+  }
+  .features .card:hover{
+    transform:translateY(-8px) scale(1.03);
+    box-shadow:0 12px 24px rgba(0,0,0,.5);
+  }
